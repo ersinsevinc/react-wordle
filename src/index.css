@@ -183,3 +183,7 @@ svg:hover {
     transform: translate(0, 0);
   }
 }
+
+button.text-xs, .text-4xl {
+  text-transform: uppercase;
+}
