@@ -52,7 +52,7 @@ export const Keyboard = ({
   return (
     <div>
       <div className="flex justify-center mb-1">
-        {['q', 'w', 'e', 'r', 't', 'y', 'u', 'ı', 'o', 'p','ğ' ,'ü' ].map((key) => (
+        {['e', 'r', 't', 'y', 'u', 'ı', 'o', 'p','ğ' ,'ü' ].map((key) => (
           <Key
             value={key}
             key={key}
@@ -77,7 +77,7 @@ export const Keyboard = ({
         <Key width={65.4} value="ENTER" onClick={onClick}>
           {ENTER_TEXT}
         </Key>
-        {['z', 'x', 'c', 'v', 'b', 'n', 'm', 'ö' , 'ç'].map((key) => (
+        {['z', 'c', 'v', 'b', 'n', 'm', 'ö' , 'ç'].map((key) => (
           <Key
             value={key}
             key={key}
